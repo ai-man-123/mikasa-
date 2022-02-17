@@ -14,14 +14,14 @@ nocache('../main.js', module => console.log(color('[WATCH]', 'red'), color(`'${m
 const starts = async (kunz = new WAConnection()) => {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               //BASE ORI BY KUNZXD        
 kunz.logger.level = 'warn'
 kunz.version = [2, 2140, 14]
-console.log(color(figlet.textSync('MIKU CHAN', {
+console.log(color(figlet.textSync('Aiman', {
 font: 'Standard',
 horizontalLayout: 'default',
 vertivalLayout: 'default',
 width: 80,
 whitespaceBreak: false
 }), 'red'))
-kunz.browserDescription = ["KXD", "Browser", "3.0.0"];
+kunz.browserDescription = ["Aiman", "Browser", "3.0.0"];
 kunz.on('qr', () => {
 console.log(color('[ KxD ]', 'red'), color('Scan me'))
 })
