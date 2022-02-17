@@ -1,5 +1,5 @@
 {
-  "name": "KXD",
+  "name": "Aiman",
   "version": "1.0.0",
   "description": "Ubah-Nama-Gak-Bikin-Lu-Jadi-Mastah",
   "main": "main.js",
@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node main.js"
   },
-  "author": "Kunz",
+  "author": "aiman",
   "dependencies": {
     "@adiwajshing/baileys": "^3.5.2",
     "axios": "^0.21.1",
