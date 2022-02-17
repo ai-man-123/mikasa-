@@ -20,11 +20,11 @@ const { getBuffer, getGroupAdmins, getRandom } = require('./lib/myfunc')
 
 //●●●●●●●●●●●●●●●●●●●●●● SETTING ●●●●●●●●●●●●●●●●●●●●●●                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               //BASE ORI BY KUNZXD🐦        
 
-botName = 'MIKU BOT'
-ownerName = 'KxD' 
-ownerNumber = '6287778886786'
-faketeks = '𝙺𝚄𝙽𝚉𝙱𝙾𝚃𝚉︎'
-publics = true
+botName = 'MIkasa BOT'
+ownerName = 'Aiman' 
+ownerNumber = '60102810046'
+faketeks = 'mikasa aiman'
+publics = false
 mypp = fs.readFileSync('thumbnail.jpg') // thumbnailnya
 
 //●●●●●●●●●●●●●●●●●●●●●● DATABASE ●●●●●●●●●●●●●●●●●●●●●●
@@ -270,7 +270,7 @@ const menunya = `Hi Kak ${pushname} Saya ${botName}
 ┃
 ┗ *more?tambahin sendiri*
 
-Script : https://github.com/KunzxD404/mikuBase`
+Script : https://github.com/ai-man-123/mikasa-`
 miku.sendMessage(from, mypp, image, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "mimetype": "image/jpeg",  "caption": faketeks,  "jpegThumbnail": fs.readFileSync('thumbnail.jpg') } } }, caption: menunya })
 break
 case 'leave': 
@@ -435,7 +435,7 @@ kD = await miku.sendMessage(from, {
 break
 case 'sticker':  case 'stiker':  case 's': 
 if ((isMedia && !kxd.message.videoMessage || isQuotedImage) && args.length == 0) {
-const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(kxd).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : kxd
+const encmedia = isQuotedImage ? JSON.parse(JSON.stringify(kxd).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo : Aiman
 const media = await miku.downloadAndSaveMediaMessage(encmedia, 'media_user')
 ran = getRandom('.webp')
 await ffmpeg(`./${media}`)
@@ -513,7 +513,7 @@ buffer = await getBuffer(`https://api.xteam.xyz/attp?file&text=${q}`)
 miku.sendMessage(from, buffer, sticker, { quoted: fstatus })
 break
 case 'sc': case 'sourcecode': case 'script':
-reply('https://github.com/KunzxD404/MikuBase\n\nPlease Take Star⭐\n\nAnd follow:)')
+reply('https://github.com/ai-man-123\n\nPlease Take Star⭐\n\nAnd follow:)')
 break
 case 'public':
 if (!isOwner && !kxd.key.fromMe) return reply(mess.only.owner)
@@ -557,8 +557,7 @@ console.log('Message : %s', color(e, 'cyan'))
 }
 }
 // THANKS TO
-//
-// KUNZXD AND IKYY (CUMA ITU🗿)
+//Aiman (CUMA ITU🗿)
 // 
 //
 //
